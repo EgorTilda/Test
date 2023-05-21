@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>CSG - Creative Sight Group</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo">
+                        <img class="logo__img" src="./pic/header/logo-CSG.svg" alt="логотип CSG">
+                    </a>
+                    <nav class="nav">
+                        <a href="#" class="nav__item">development</a>
+                        <a href="#" class="nav__item">design</a>
+                        <a href="#" class="nav__item">mobile</a>
+                        <a href="#" class="nav__item">blockchain</a>
+                        <a href="#" class="nav__item">fintech</a>
+                        <a href="#" class="nav__item">marketing</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="dev-plug">
+                <div class="container">
+                    <div class="dev-plug__content">
+                        <h1 class="dev-plug__title title">
+                            Сайт находится в разработке
+                            <br>
+                            Приносим извинения за неудобства
+                        </h1>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__item email">
+                        <a href="mailto:promotion@creativesight.group">promotion@creativesight.group</a>
+                    </div>
+                    <div class="footer__item tel">
+                        <a href="tel:+78002501950">8(800)250-19-50</a>
+                    </div>
+                    <div class="footer__item footer__contacts-row">
+                        <a href="https://wa.me/78002501950?text=Здравствуйте%2C+я+бы+хотел+оставить+заявку"
+                            class="footer__icon contact-icon">
+                            <img src="./pic/icons/icon-whatsapp.svg" alt="ватсап">
+                        </a>
+                        <a href="https://t.me/csgdesign?text=Здравствуйте%2C+бы+хотел+оставить+заявку"
+                            class="footer__icon contact-icon">
+                            <img src="./pic/icons/icon-telegram.svg" alt="телеграм">
+                        </a>
+                        <a href="https://instagram.com/csg.digital" class="footer__icon contact-icon">
+                            <img src="./pic/icons/icon-instagram.svg" alt="инстаграм">
+                        </a>
+                    </div>
+                    <div class="footer__item footer__btn btn" id="btn-to-form">Оставить заявку</div>
+                </div>
+            </div>
+        </footer>
+        <form class="form hide" action="mailto:promotion@cretivesight.group" method="post" id="form-req">
+            <div class="form__controls-row">
+                <img id="close-icon" src="./pic/icons/icon-close.png" alt="Закрыть форму">
+            </div>
+            <h2 class="form__title">Оставить заявку</h2>
+            <div class="form__inner">
+                <label for="name"><b></b></label>
+                <input type="text" placeholder="Имя" name="name" required>
+                <label for="tel"><b></b></label>
+                <input type="tel" placeholder="Телефон" name="tel" required>
+                <label for="email"><b></b></label>
+                <input type="email" placeholder="Email" name="email" required>
+                <label for="mes"><b></b></label>
+                <textarea type="text" placeholder="Сообщение" name="mes" required></textarea>
+            </div>
+            <div class="form__btn-row">
+                <button type="submit" class="btn-form">Отправить</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
